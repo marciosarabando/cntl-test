@@ -1,4 +1,4 @@
-# Teste Dev Full Stack da Contele - Makers and Clusters Google Maps API
+# Teste Dev Full Stack - Contele - Makers and Clusters Google Maps API
 ## Marcio Sarabando
 
 ## Objetivo: 
