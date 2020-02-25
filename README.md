@@ -33,7 +33,7 @@ docker-compose up -d
 <p>API: http://localhost:4000</p>
 <p>WEB: http://localhost:3000</p>
 
-## CONSIDERAÇÕES: 
+## Considerações importantes: 
 Após inicializar os containers a aplicação irá subir em alguns segundos.
 Este teste foi solucionado com um pouco de dificuldade pelo programador, pois possuia pouca familiaridade com algumas da tecnologias utilizadas requisitadas. Por isso, entendo que esta é apenas uma solução das dezenas de formas de fazer e entendo que me aprofundando ainda mais no conhecimento encontrarei padrões ainda melhores para se utilizar.
 ## 
