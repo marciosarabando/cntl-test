@@ -17,17 +17,17 @@ Ao realizar o Zoom ocorrerá o desagrupamento até que seja exibido apenas um ú
 
 ## Instalação:
 ### FrontEnd e Backend:
-<p>1 - Clonar o projeto em um diretório</p>
-<p>3 - Executar npm install no Back e no Front </p>
+1 - Clonar o projeto em um diretório</br>
+2 - Executar npm install no Back e no Front </br>
 ```sh
 backend\npm install
 frontend\npm install
 ```
-<p>2 - Executar o Docker Compose</p>
+3 - Executar o Docker Compose</br>
 ```sh
 docker-compose up -d
 ```
-<p>3 - Aguardar a inicialização dos dois containers e realizar o acesso.</p>
+4 - Aguardar a inicialização dos dois containers e realizar o acesso.</br>
 
  ## URL de Execução:
 <p>API: http://localhost:4000</p>
