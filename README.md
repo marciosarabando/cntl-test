@@ -2,7 +2,7 @@
 ## Marcio Sarabando
 
 ## Objetivo: 
-Esta aplicação possui uma página única (SPA) desenvolvida em React que realiza uma consulta em uma API que retorna um Json contendo 50 mil pontos de localização que serão exibidos em um Mapa de forma agrupada.
+Esta aplicação possui uma página única (SPA) desenvolvida em React que realiza uma consulta em uma API que retorna um JSON contendo 50 mil pontos de localização que serão exibidos em um Mapa de forma agrupada.
 Ao realizar o Zoom ocorrerá o desagrupamento até que seja exibido apenas um único ponto no local demarcado.
 
 ## Tecnologias utilizadas:
