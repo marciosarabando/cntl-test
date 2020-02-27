@@ -15,13 +15,13 @@ Esta aplicação possui uma página única (SPA) desenvolvida em React e uma API
 
 ## Instalação:
 ### Frontend e Backend:
-1 - Clonar o projeto em um diretório escolhido</br>
-2 - Executar npm install nos diretórios Backend e Frontend </br>
+1 - Clonar o projeto em um diretório escolhido.</br>
+2 - Executar npm install nos diretórios Backend e Frontend.</br>
 ```sh
 backend\npm install
 frontend\npm install
 ```
-3 - Executar o Docker Compose</br>
+3 - Executar o Docker Compose.</br>
 ```sh
 docker-compose up
 ```
@@ -29,11 +29,11 @@ docker-compose up
 
  ## URLs de Execução:
 <p>API: http://localhost:4000</p>
-<p>API-DOCS: http://localhost:4000/api-docs
+<p>API DOCS: http://localhost:4000/api-docs
 <p>WEB: http://localhost:3000</p>
 
-## Considerações: 
-Após inicializar os containers com o docker-compose, a aplicação irá subir em alguns segundos. A solução adotada é uma das infinitas maneiras de programar este desafio, e reconheço que ao me aprofundar no conhecimento e com a prática encontrarei padrões ainda melhores para se utilizar.
+## Considerações finais: 
+Após inicializar os containers com o docker-compose a aplicação irá subir em alguns segundos. A solução adotada é uma das infinitas maneiras de programar este desafio. E reconheço que ao me aprofundar no conhecimento e com a prática, encontrarei padrões ainda melhores para se utilizar.
 
 Atenciosamente,
 
