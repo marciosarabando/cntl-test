@@ -1,6 +1,6 @@
 # Teste Dev Full Stack - Contele - Makers and Clusters Google Maps API
 
-## Objetivo: 
+## Introdução: 
 Esta aplicação possui uma página única (SPA) desenvolvida em React e uma API NodeJS que retorna um JSON contendo 50 mil pontos de localização (latitude e longitude). A SPA realiza uma consulta na API e exibe os pontos de forma agrupada em um mapa do Google Maps. Ao realizar o Zoom ocorrerá o desagrupamento até que os pontos únicos sejam apresentados nos locais do mapa.
 
 ## Tecnologias utilizadas:
