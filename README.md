@@ -14,7 +14,7 @@ Esta aplicação possui uma página única (SPA) desenvolvida em React e uma API
 </ul>
 
 ## Instalação:
-### FrontEnd e Backend:
+### Frontend e Backend:
 1 - Clonar o projeto em um diretório escolhido</br>
 2 - Executar npm install nos diretórios Backend e Frontend </br>
 ```sh
