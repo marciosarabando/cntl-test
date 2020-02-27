@@ -1,5 +1,4 @@
 # Teste Dev Full Stack - Contele - Makers and Clusters Google Maps API
-## Marcio Sarabando
 
 ## Objetivo: 
 Esta aplicação possui uma página única (SPA) desenvolvida em React, que realiza uma consulta em uma API e retorna um JSON contendo 50 mil pontos de localização, que serão exibidos de forma agrupada em um mapa do Google Maps.
