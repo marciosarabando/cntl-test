@@ -36,6 +36,7 @@ docker-compose up
 
 ## Considerações: 
 Após inicializar os containers com o docker-compose, a aplicação irá subir em alguns segundos. A solução adotada é uma das infinitas maneiras de programar este desafio, e reconheço que ao me aprofundar no conhecimento e com a prática encontrarei padrões ainda melhores para se utilizar.
-## 
+
 Atenciosamente,
+
 Marcio Sarabando.
