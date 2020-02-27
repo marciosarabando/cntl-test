@@ -13,7 +13,7 @@ export default function App() {
   const [bounds, setBounds] = useState(null);
   const [zoom, setZoom] = useState(10);
   const { data, error } = useSwr(url, { fetcher });
-  const locations = data && !error ? data.slice(0, 5000) : [];
+  const locations = data && !error ? data.slice(0, 50000) : [];
 
   const points = locations.map((location, index) => ({
     type: "Feature",
@@ -97,7 +97,7 @@ export default function App() {
             >
               
               <button className="point-marker">
-                <img src="/ponto.png" alt="point doesn't pay" />
+                <img src="/ponto.png" alt="" />
               </button>
               
             </Marker>

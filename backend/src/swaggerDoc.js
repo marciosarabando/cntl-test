@@ -1,18 +1,23 @@
 const swaggerUi = require('swagger-ui-express');
 const swaggerJsdoc = require('swagger-jsdoc');
  
-const options = {
+//Extended: https://swagger.io/specification/#infoObject
+const swaggerOptions = {
     swaggerDefinition: {
         info: {
-            title: 'API RoadMap Contele - Teste Marcio Sarabando',
-        },
-        basePath: '/'
+            title: "API 50.000 Pontos Contele - Dev Marcio Sarabando",
+            description: "API para retorno de um JSON contendo 50 mil pontos de localização (Latitude o Longitude)",
+            contact: {
+                name: "Dev Incrível"
+            },
+            servers: ["http://localhost:4000"]
+        }
     },
-    apis: ['endpoints.js'],
+    apis: ["src/endpoints.js"]
 };
 
-const specs = swaggerJsdoc(options);
+const specs = swaggerJsdoc(swaggerOptions);
  
 module.exports = (app) => {
-    app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
+    app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs));
 }

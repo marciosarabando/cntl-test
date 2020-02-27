@@ -18,7 +18,7 @@ Ao realizar o Zoom ocorrerá o desagrupamento até que seja exibido apenas um ú
 ## Instalação:
 ### FrontEnd e Backend:
 1 - Clonar o projeto em um diretório</br>
-2 - Executar npm install no Back e no Front </br>
+2 - Executar npm install nos diretórios Backend e Frontend </br>
 ```sh
 backend\npm install
 frontend\npm install
@@ -31,10 +31,11 @@ docker-compose up -d
 
  ## URLs de Execução:
 <p>API: http://localhost:4000</p>
+<p>API-DOCS: http://localhost:4000/api-docs
 <p>WEB: http://localhost:3000</p>
 
-## Considerações importantes: 
-Após inicializar os containers a aplicação irá subir em alguns segundos. Entendo que esta é uma das dezenas de formas solucionar este desafio, e ao me aprofundar no conhecimento e na prática encontrarei padrões ainda melhores para se utilizar.
+## Considerações: 
+Após inicializar os containers com o docker-compose, a aplicação irá subir em alguns segundos. A solução adotada é uma das infinitas maneiras de programar este desafio, e reconheço que ao me aprofundar no conhecimento e com a prática encontrarei padrões ainda melhores para se utilizar.
 ## 
 Obrigado pela oportunidade.
 

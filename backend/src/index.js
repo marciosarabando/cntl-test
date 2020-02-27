@@ -2,7 +2,7 @@ const express = require('express')
 const endpoints = require('./endpoints')
 const swaggerDoc = require('./swaggerDoc')
 const bodyParser = require('body-parser')
-const allowCors = require('./cors')
+const allowCors = require('./cors') 
 
 const port = 4000
 const app = express(express);

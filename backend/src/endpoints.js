@@ -9,16 +9,17 @@ fs.readFile("./json/poi.json" , "utf8", function(err, data){
   });
 
 const initializeEndpoints = (app) => {
-    /**
-     * @swagger
-     * /points:
-        get:
-            tags:
-            - "points"  
-            description: "Retorna as coordenadas de Latitude e Longitude para ser consumida no Google Maps API"
-     */
-
-    app.get('/points', (req, res) => res.end(jsonData));
+// Routes
+/**
+ * @swagger
+ * /points:
+ *  get:
+ *    description: Use para requisitar os 50.000 pontos de localização
+ *    responses:
+ *      '200':
+ *        description: Requisição com Sucesso
+ */
+app.get('/points', (req, res) => res.end(jsonData));
 }
 
 module.exports = initializeEndpoints;
