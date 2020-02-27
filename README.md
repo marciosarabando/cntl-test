@@ -33,7 +33,7 @@ docker-compose up
 <p>WEB: http://localhost:3000</p>
 
 ## Considerações finais: 
-Após inicializar os containers com o docker-compose a aplicação irá subir em alguns segundos. A solução adotada é uma das infinitas maneiras de resolver este desafio. E reconheço que ao me aprofundar no conhecimento e com a prática, encontrarei padrões ainda mais assertivos para se adotar.
+Após inicializar os containers com o docker-compose a aplicação irá subir em alguns segundos. Esta é uma das infinitas maneiras de resolver este desafio. E reconheço que ao me aprofundar no conhecimento e com a prática, encontrarei padrões ainda mais assertivos para se adotar.
 
 Atenciosamente,
 
